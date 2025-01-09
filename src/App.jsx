@@ -1,6 +1,5 @@
 /**** REQUIRE STATEMENTS: imports ****/
 import React, {useState, useEffect} from 'react'
-import './App.css'
 import SearchBar from './components/SearchBar'
 import ImageCard from './components/imageCard'
 
