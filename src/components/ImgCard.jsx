@@ -3,7 +3,7 @@ import React from 'react'
 
 
 /**** IMAGE CARDS ****/
-function ImageCard({image}) {
+function ImgCard({image}) {
     /**** get name tags ****/
     let nameTags = image.tags
     /**** split those names ****/
@@ -27,4 +27,4 @@ function ImageCard({image}) {
     )
 }
 
-export default ImageCard
+export default ImgCard

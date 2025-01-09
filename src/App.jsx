@@ -1,8 +1,7 @@
 /**** REQUIRE STATEMENTS: imports ****/
 import React, {useState, useEffect} from 'react'
 import SearchBar from './components/SearchBar'
-import ImageCard from './components/imageCard'
-
+import ImgCard from './components/ImgCard'
 
 /**** APP ****/
 function App() {
@@ -43,7 +42,7 @@ function App() {
         ) : (
           <div className='gridImagesContainer'>
             {images.map((image) => (
-              <ImageCard 
+              <ImgCard 
                 key={image.id}
                 image={image} 
               />
