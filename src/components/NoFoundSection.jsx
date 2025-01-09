@@ -6,7 +6,7 @@ import React from "react";
 function NoFoundSection() {
     return (
         <section className='noFoundSection'>
-            <img src="../src/assets/no_found-picture.png" alt="" width={400}/>
+            <img src="/no_found-picture.png" alt="" width={400}/>
             <h1 className='noFoundTitle'><span>Nenhuma</span> foto encontrada</h1>
             <p className="noFoundText">Certifique-se de ter <strong>digitado corretamente</strong> o que procurava ou tente uma <strong>palavra nova</strong>.</p>
         </section>

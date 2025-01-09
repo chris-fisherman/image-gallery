@@ -26,8 +26,8 @@ function App() {
     <>
       {/**** BACKGROUND PICTURES ****/}
       <div className='headerPictures'>
-        <img src="../src/assets/mobile-bg-0_1.png" alt='Picture frames 1'/>
-        <img src="../src/assets/mobile-bg-0_2.png" alt='Picture frames 1'/>  
+        <img src="/mobile-bg-0_1.png" alt='Picture frames 1'/>
+        <img src="/mobile-bg-0_2.png" alt='Picture frames 1'/>  
       </div>
     
       {/**** HEADER ****/}
