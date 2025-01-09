@@ -18,10 +18,10 @@ function ImageCard({image}) {
     return (
         <>
             <div className='imageContainer'>
-                <a className='imageLink' href={image.webformatURL} target='new'>
+                <div className='imageDiv' href={image.webformatURL} target='new'>
                     <img className='imagePicture' src={image.webformatURL} alt="" />
-                    <p>{namesSeparated}</p>
-                </a>
+                </div>
+                <p className='imageText'>{namesSeparated}</p>
             </div>
         </>
     )
