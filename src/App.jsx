@@ -61,6 +61,7 @@ function App() {
       {/**** FOOTER ****/}
       <footer className='footer'>
         <p className='footerText'>© 2024 Galeria de Fotos. Todos os direitos reservados.</p>
+        <p className='footerText'>Projeto de desafio idealizado e desenvolvido por <a href="https://github.com/chris-fisherman" title='GitHub profile' target='_blank'><strong>Christian Peraza</strong></a> como parte do <em>Processo Seletivo da Aceleradora Ágil, turma 27 - 2025/1º Semestre</em>.</p>
       </footer>
     </>
   )
