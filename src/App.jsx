@@ -2,6 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import SearchBar from './components/SearchBar'
 import ImgCard from './components/ImgCard'
+import NoFoundSection from './components/NoFoundSection'
 
 /**** APP ****/
 function App() {
@@ -23,9 +24,15 @@ function App() {
 
   return (
     <>
+      {/**** BACKGROUND PICTURES ****/}
+      <div className='headerPictures'>
+        <img src="../src/assets/mobile-bg-0_1.png" alt='Picture frames 1'/>
+        <img src="../src/assets/mobile-bg-0_2.png" alt='Picture frames 1'/>  
+      </div>
+    
       {/**** HEADER ****/}
       <header className='header'>
-        <h1 className='headerTitle'>Galeria de fotos</h1>
+        <h1 className='headerTitle'>Galeria de Fotos</h1>
         <SearchBar 
           searchText={(text) => setTerm(text)} 
           setTerm={setTerm} 
@@ -35,10 +42,10 @@ function App() {
       {/**** MAIN ****/}
       <main className='main'>
         {!isLoading && images.length === 0 && (
-          <h1 className='noFoundTitle'>Nenhum resultado encontrado</h1>
+          <NoFoundSection />
         )}
         {isLoading ? (
-          <h1 className='loadingTitle'>Carregando...</h1>
+          <h1 className='loadingTitle'>Carregando <span>fotos</span>...</h1>
         ) : (
           <div className='gridImagesContainer'>
             {images.map((image) => (
