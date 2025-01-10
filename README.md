@@ -30,12 +30,7 @@ npm install
 **4.** Uma vez instaladas as dependências, execute o comando de desenvolvimento `npm run dev` e você poderá começar a usar o aplicativo em seu computador local fazendo **Ctrl+click** no link Local.
 
 ```
- npm run dev
-
-  VITE v3.1.8 ready in 396 ms
-
-  > Local: http://localhost:5173/
-  > Network: use `--host` to expose
+npm run dev
 ```
 
 > **Nota:** Nota: Para finalizar o desenvolvimento local, basta digitar **Ctrl+C** no terminal.
