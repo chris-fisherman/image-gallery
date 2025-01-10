@@ -17,7 +17,15 @@ Esta é uma aplicação web que exibe uma galeria de fotos, permitindo que os us
 
 **2.** Uma vez clonado o repositório, vá para o diretório criado digitando `cd image-gallery`.
 
+```
+cd image-gallery
+```
+
 **3.** Depois, execute o comando de instalação `npm install` para instalar as dependências.
+
+```
+npm install
+```
 
 **4.** Uma vez instaladas as dependências, execute o comando de desenvolvimento `npm run dev` e você poderá começar a usar o aplicativo em seu computador local fazendo **Ctrl+click** no link Local.
 
